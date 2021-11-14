@@ -1,0 +1,76 @@
+body {
+	background-color: #2C2D27;
+	display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 	font-family:  Courier New, monospace;
+	color: #6ecf2d;
+}
+::-webkit-scrollbar {
+	width: 10px;
+} 
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px black;
+	border-radius: 5px; 
+}
+::-webkit-scrollbar-thumb {
+	background: cyan;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #5edbc9;
+}
+h1.a {
+	font-size: 50px;
+}
+pre {
+	font-size: 45px
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333; 
+}
+li {
+	float: left;
+	font-family:  Courier New, monospace
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: cyan;
+}
+
+.mail {
+	color: red;
+}
+
+.da {
+	color: White;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.dark-mode {
+  background-image: url("1567665.png");
+  color: white;
+}
+.bt {
+  border-radius: 80px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: red;
+}
